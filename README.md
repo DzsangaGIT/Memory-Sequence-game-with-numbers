@@ -34,7 +34,7 @@ The Memory Improvement Game is a simple and fun memory development game where pl
 5. If you make a mistake, the game ends, and your final score is displayed.
 
 ## Screenshot
-![Game Screenshot](![image](https://github.com/user-attachments/assets/7d5d64a1-8814-49f4-b372-f4b5c455c0e5)
+![Game Screenshot](image.PNG)
 )
 
 ## Contributing
