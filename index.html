@@ -3,18 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memória Javító játék</title>
+    <title>Memória Javító Játék</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <h1>Memória Javító játék</h1>
+        <h1>Memória Javító Játék</h1>
+        <div id="instructions" class="instructions">
+            <h2>Játék Utasítások</h2>
+            <p>Figyeld a megjelenő számok sorrendjét, majd írd be őket egy szóköz választóval. Minden helyes válasz után a nehézség nő!</p>
+        </div>
         <div id="sequenceDisplay" class="sequence-display"></div>
         <input type="text" id="userInput" placeholder="Üsd be a sorrendet" />
+        <select id="difficultySelect">
+            <option value="3">Könnyű</option>
+            <option value="5">Közepes</option>
+            <option value="7">Nehéz</option>
+        </select>
         <button id="submitButton">Küldés</button>
+        <button id="restartButton" style="display: none;">Újraindítás</button>
         <p id="message"></p>
         <p id="score">Pont: 0</p>
     </div>
+
+    <div id="endModal" class="end-modal">
+        <div class="modal-content">
+            <h2>Játék Vége!</h2>
+            <p id="finalScore">Pont: 0</p>
+            <button id="restartButtonModal">Újraindítás</button>
+            <select id="difficultySelectModal">
+                <option value="3">Könnyű</option>
+                <option value="5">Közepes</option>
+                <option value="7">Nehéz</option>
+            </select>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
