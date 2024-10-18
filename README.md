@@ -13,7 +13,7 @@ The Memory Improvement Game is a simple and fun memory development game where pl
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/MemoryImprovementGame.git
+   git clone https://github.com/DzsangaGIT/MemoryImprovementGame.git
    ```
 2. Navigate to the folder:
    ```bash
