@@ -1,38 +1,47 @@
+# Memory Improvement Game
+
+## Description
+The Memory Improvement Game is a simple and fun memory development game where players need to remember and input the sequence of numbers displayed. The goal is to answer as many correctly as possible to increase your score!
+
+## Features
+- **Remember Numbers**: Keep track of the order of numbers that appear during the game.
+- **Difficulty Levels**: Choose between easy, medium, and hard modes.
+- **Score Tracking**: The score is updated continuously for each correct answer.
+- **Feedback**: Results and feedback are displayed during the game.
+- **Confetti Animation**: Confetti animation appears after correct answers.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/MemoryImprovementGame.git
+   ```
+2. Navigate to the folder:
+   ```bash
+   cd MemoryImprovementGame
+   ```
+3. Open the `index.html` file in your browser.
+
+## Files
+- **index.html**: The HTML structure of the game.
+- **styles.css**: The styles defining the appearance of the game.
+- **script.js**: The JavaScript code implementing the game logic.
+
+## Usage
+1. Select the difficulty level.
+2. Watch the sequence of numbers displayed.
+3. Type the numbers in the correct order, separated by spaces.
+4. For each correct answer, the time decreases, and the game continues.
+5. If you make a mistake, the game ends, and your final score is displayed.
+
+## Screenshot
+![Game Screenshot](link-to-image)
+
+## Contributing
+If you would like to contribute to the project, please open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License. Please see the LICENSE file for details.
+
 ---
 
-### Memory Sequence Game Instructions
-
-#### Objective:
-Memorize and accurately recall a sequence of numbers displayed on the screen. Your goal is to see how long you can continue without making a mistake!
-
-#### How to Play:
-
-1. **Start the Game:**
-   - Open the game in your web browser. The game will automatically start by displaying a sequence of numbers.
-
-2. **Memorize the Sequence:**
-   - Observe the sequence of numbers displayed on the screen. The sequence will be shown one number at a time, with a one-second pause between each number. 
-   - Take a mental note of the order and the numbers.
-
-3. **Input Your Answer:**
-   - Once the sequence has been displayed, you will see an input box.
-   - Enter the numbers in the exact order you remember, separated by spaces (e.g., `1 2 3`).
-
-4. **Submit Your Answer:**
-   - Click the **Submit** button to check if your answer is correct.
-
-5. **Scoring:**
-   - If your answer is correct, your score will increase, and the length of the sequence will grow for the next round.
-   - If your answer is incorrect, the game will reveal the correct sequence, and your game will end.
-
-6. **End of Game:**
-   - After a wrong answer, you can refresh the page to play again or simply close the browser.
-
-#### Tips for Success:
-- Focus on the sequence as it appears. You can try to visualize the numbers or create a mental image to help with memorization.
-- Practice recalling the sequence immediately after it disappears to reinforce your memory.
-- Start with shorter sequences and gradually challenge yourself with longer ones as you improve.
-
----
-
-Enjoy playing the Memory Sequence Game and challenge your memory skills!
+We hope you enjoy the Memory Improvement Game! If you have any questions, feel free to reach out!
