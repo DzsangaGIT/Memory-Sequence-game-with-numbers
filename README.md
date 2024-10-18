@@ -13,11 +13,11 @@ The Memory Improvement Game is a simple and fun memory development game where pl
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/DzsangaGIT/MemoryImprovementGame.git
+   git clone https://github.com/DzsangaGIT/Memory-Sequence-game-with-numbers.git
    ```
 2. Navigate to the folder:
    ```bash
-   cd MemoryImprovementGame
+   cd Memory-Sequence-game-with-numbers
    ```
 3. Open the `index.html` file in your browser.
 
