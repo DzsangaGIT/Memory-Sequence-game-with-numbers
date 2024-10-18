@@ -35,7 +35,7 @@ The Memory Improvement Game is a simple and fun memory development game where pl
 
 ## Screenshot
 ![Game Screenshot](image.PNG)
-)
+
 
 ## Contributing
 If you would like to contribute to the project, please open an issue or submit a pull request.
